@@ -1,5 +1,6 @@
 import React from 'react'
 import Prompt from './Prompt.jsx'
+import Card from './Card.jsx'
 
 class Game extends React.Component {
   constructor() {
@@ -20,6 +21,7 @@ class Game extends React.Component {
     return (
       <div className="game">
         <Prompt pInput={this.state.gameSize} onInput={this.boundHandleInputChange} />
+        <Card />
       </div>)
   }
 }
