@@ -1,0 +1,85 @@
+.board {
+  background: url(https://www.freeiconspng.com/uploads/wood-png-20.jpg) repeat;
+  margin-left: 10%;
+  width: 70%;
+  min-height: 70%;
+  padding: 2%;
+  border-style: solid;
+  border-width: 25px;
+  border-top-color: rgb(51, 31, 12);
+  border-right-color: rgb(87, 47, 10);
+  border-bottom-color: rgb(51, 31, 12);
+  border-left-color: rgb(87, 47, 10);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+
+.game {
+  background: url(https://creativecoverings.com/wp-content/uploads/2018/05/Chocolate-Vintage-Linen.jpg);
+  padding-bottom: 10%;
+  position: relative;
+}
+
+
+
+.prompt {
+  background: url(https://www.freeiconspng.com/uploads/wood-png-20.jpg) repeat-y;
+  margin-left: 10%;
+  width: 15%;
+  padding: 2%;
+  border-style: solid;
+  border-width: 20px;
+  border-bottom: 0px;
+  border-top-color: rgb(51, 31, 12);
+  border-right-color: rgb(87, 47, 10);
+  border-bottom-color: rgb(51, 31, 12);
+  border-left-color: rgb(87, 47, 10);
+  line-height: 20px;
+}
+
+.radio {
+  background: url(https://5.imimg.com/data5/VO/FQ/MY-43111061/white-marble-flooring-stone-500x500.jpg);
+  margin: 10px;
+  border-style: solid;
+  border-width: 8px;
+  border-top-color: rgb(219, 218, 194);
+  border-right-color: rgb(165, 165, 160);
+  border-bottom-color:  rgb(219, 218, 194);
+  border-left-color:rgb(165, 165, 160);
+  text-align: center;
+
+}
+
+.label {
+  background: url(https://5.imimg.com/data5/VO/FQ/MY-43111061/white-marble-flooring-stone-500x500.jpg);
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 8px;
+  border-top-color: rgb(219, 218, 194);
+  border-right-color: rgb(165, 165, 160);
+  border-bottom-color:  rgb(219, 218, 194);
+  border-left-color:rgb(165, 165, 160);
+}
+
+.card {
+  width: 217px;
+  height: 293px;
+  object-fit: scale-down;
+}
+
+.victoryWindow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://i.ebayimg.com/images/g/AeQAAOSw8lpZJz2k/s-l300.jpg) repeat;
+  visibility: visible;
+  z-index:1000; 
+
+}
+
+.victoryWindow.disabled {
+  visibility: hidden;
+}

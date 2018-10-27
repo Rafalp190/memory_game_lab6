@@ -7,6 +7,14 @@ const config = {
     rules: [{
       test: /\.jsx?$/,
       use: ['babel-loader'],
+    },
+    {
+      test: /\.(png|jpg|gif|svg)$/,
+      use: ['file-loader'],
+    },
+    {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader'],
     }],
   },
 }
