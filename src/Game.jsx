@@ -33,7 +33,7 @@ class Game extends React.Component {
       boardList: [],
       victory: 0,
     }
-    this.imageList = [{ name: 'ciri', flip: 1 }, { name: 'dandelion', flip: 0 }, { name: 'dragon', flip: 0 }, { name: 'geralt', flip: 0 }, { name: 'igni', flip: 0 }, { name: 'isengrim', flip: 0 }, { name: 'kambi', flip: 0 }, { name: 'miruna', flip: 0 }, { name: 'ragnarok', flip: 0 }, { name: 'regis', flip: 0 }, { name: 'roche', flip: 0 }, { name: 'sabbath', flip: 0 }, { name: 'saskia', flip:0 }, { name: 'shani', flip: 0 }, { name: 'sihil', flip: 0 }, { name: 'triss', flip: 0 }, { name: 'yen', flip: 0 }, { name: 'yrden', flip: 0 }]
+    this.imageList = [{ name: 'ciri', flip: 0 }, { name: 'dandelion', flip: 0 }, { name: 'dragon', flip: 0 }, { name: 'geralt', flip: 0 }, { name: 'igni', flip: 0 }, { name: 'isengrim', flip: 0 }, { name: 'kambi', flip: 0 }, { name: 'miruna', flip: 0 }, { name: 'ragnarok', flip: 0 }, { name: 'regis', flip: 0 }, { name: 'roche', flip: 0 }, { name: 'sabbath', flip: 0 }, { name: 'saskia', flip:0 }, { name: 'shani', flip: 0 }, { name: 'sihil', flip: 0 }, { name: 'triss', flip: 0 }, { name: 'yen', flip: 0 }, { name: 'yrden', flip: 0 }]
     this.boundHandleInputChange = this.handleInputChange.bind(this)
     this.handleCardClick = this.handleCardClick.bind(this)
   }
