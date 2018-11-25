@@ -7,4 +7,4 @@ Para ejecutarlo
 npm start
 ```
 
-dirigirse a [este link](localhost:8080/dist/)
+dirigirse a localhost:8080/dist/
